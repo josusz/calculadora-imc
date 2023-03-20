@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".\css\style.css">
+    <script src=".\js\script.js"></script>
+    <title>Calculadora de IMC</title>
+    <link rel="icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/2596/PNG/512/weight_icon_154609.png">
+</head>
+
+<body>
+    <p>&#10162 O Índice de Massa Corporal, conhecido pela sigla IMC, é um cálculo simples que permite medir se alguém está ou não com o peso ideal.</p>
+    <form> 
+        <div class="resultado">
+            <output id="imc">IMC</output>
+            <br>
+            <output id="classificacao">Classificação</output>
+        </div>
+        <br>
+        <div class="valores">
+            <input type="number" id="peso" placeholder="Digite o seu PESO">
+            <label for="imc">kg</label>
+            <br>
+            <input type="number" id="altura" placeholder="Digite a sua ALTURA">
+            <label for="classificacao">cm</label>
+        </div>
+
+        <div class="botoes">
+            <button type="button" class="btn-calcular" onclick="calcular()" >Calcular</button>
+            <button type="button" class="btn-limpar" onclick="limpar()">CE</button>
+        </div>
+    </form>
+</body>
+</html>

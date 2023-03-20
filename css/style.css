@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+p{
+  font-family: "Consolas", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  text-align: justify;
+  color:#ffffff;;
+  border: 10px solid #0000;
+  border-radius: 10px;
+  padding: 8px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  background-color: #ff0000b1;
+  display: inline-block;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 70px;
+}
+
+form{
+  border: 2px solid #0000;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  background-color: #ffffff;
+}
+
+output{
+  font-family: "Consolas", "Lucida Console", Monaco, monospace;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: #0095ff;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 5px;
+  outline: none;
+  display: inline-block;
+  width: 270px;
+}
+
+label{
+  font-family: "Consolas", "Lucida Console", Monaco, monospace;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: end;
+  color: #7e7e7e;
+  margin-bottom: 10px;
+}
+
+input{
+  font-family: "Consolas", "Lucida Console", Monaco, monospace;
+  align-items: center;
+  font-size: 20px;
+  border-radius: 5px;
+  text-align: end;
+  color: #7e7e7e;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  border: none;
+  padding: 5px;
+  outline: none;
+  width: 240px;
+}
+
+.btn-calcular{
+  height: 40px;
+  margin-top: 10px;
+  width: 180px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  color: #ffffff;
+  background-color: #0095ff;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-limpar{
+  height: 40px;
+  margin-left: 5px;
+  width: 90px;
+  font-size: 20px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #ffffff;  
+  background-color: #ff0000;
+  border: none;
+  cursor: pointer;
+} 
